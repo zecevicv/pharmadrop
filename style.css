@@ -493,6 +493,7 @@ body.no-scroll .header .hamburger .hamburger-inner::after {
 .hamburger-inner {
   display: block;
   top: 50%;
+  margin-bottom: -2px;
 }
 
 .hamburger-inner,
@@ -1803,7 +1804,11 @@ body.no-scroll .header .hamburger .hamburger-inner::after {
   }
 
   .copyright.copyright-mobile p {
-    margin-top: 30px;
+    margin-top: 50px;
     color: var(--purple-1);
+  }
+
+  .copyright.copyright-mobile a {
+    border-bottom: 2px solid var(--purple-4);
   }
 }
