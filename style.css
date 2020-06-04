@@ -1,8 +1,18 @@
 /* #Font
 ================================================== */
 /* GT Eesti */
-@import url(https://db.onlinewebfonts.com/c/435d667718407271e1ae7a0269b6e1bd?family=GT+Eesti+Pro+Text+Book);
-@import url(https:///db.onlinewebfonts.com/c/8426a32eac5d066df381defc65f5b85f?family=GT+Eesti+Pro+Display+Medium);
+@font-face {
+  font-family: 'GT Eesti Pro Text Book';
+  src: url('./fonts/GT\ Eesti\ Pro\ Text\ Book.otf');
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'GT Eesti Pro Display Medium';
+  src: url('./fonts/GT\ Eesti\ Pro\ Display\ Medium.otf');
+  font-style: normal;
+}
+
 
 /* F37 Ginger */
 @font-face {
