@@ -13,7 +13,6 @@
   font-style: normal;
 }
 
-
 /* F37 Ginger */
 @font-face {
   font-family: 'f37';
@@ -591,7 +590,7 @@ body.no-scroll .header .hamburger .hamburger-inner::after {
 .hero {
   height: 100vh;
   height: calc(var(--vh, 1vh) * 100);
-  background-image: url('./img/hero-bg-img.png');
+  background-image: url('./img/hero-bg-img.jpg');
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
