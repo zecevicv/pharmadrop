@@ -45,3 +45,11 @@ window.addEventListener('load', (event) => {
     }
   });
 });
+
+AOS.init({
+  startEvent: 'load',
+  once: true,
+  duration: 1000,
+  offset: 300,
+  ease: 'ease-in-out'
+});
