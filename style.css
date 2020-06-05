@@ -377,6 +377,7 @@ body.no-scroll .header .hamburger .hamburger-inner::after {
   font-size: 24px;
   /* font-family: 'f37'; */
   font-weight: 600;
+  letter-spacing: 0.025em;
 }
 
 /* Navigation Links */
